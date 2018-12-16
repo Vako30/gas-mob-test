@@ -1,0 +1,22 @@
+$body-color: #505d68;
+
+$theme-colors: (
+        "light": #f2f5f7,
+        "primary": #424b5a,
+        "muted": #a1aeb7,
+        "secondary": #c2d1d9,
+);
+
+$spacer: 25px;
+
+$font-size-base: 0.8rem;
+$h1-font-size: $font-size-base * 4;
+$headings-font-weight: 600;
+$navbar-brand-font-size: 1.5rem;
+$navbar-nav-link-padding-x: 1rem;
+
+$input-group-addon-bg: white;
+$input-btn-focus-width: 0;
+$input-btn-focus-color: transparent;
+
+@import "~bootstrap/scss/bootstrap";
